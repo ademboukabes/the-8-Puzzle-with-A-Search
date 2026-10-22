@@ -6,7 +6,7 @@ Built as part of the *Foundations of Artificial Intelligence (FIA)* course at **
 
 ---
 
-## 🎯 Goal Configuration
+##  Goal Configuration
 
 The solver is designed to reach the classic **spiral configuration** (centered blank tile):
 
@@ -24,7 +24,7 @@ The user can drag or click tiles to set any configuration, and A* finds the opti
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Optimal A\* Search Engine**: Guarantees the shortest path using priority queue (`OPEN`) and explored set (`CLOSED`).
 - **Two Heuristics Supported**:
@@ -62,7 +62,7 @@ The user can drag or click tiles to set any configuration, and A* finds the opti
 
 ---
 
-## 🚀 Installation & Quick Start
+##  Installation & Quick Start
 
 ### 1. Clone the repository
 ```bash
@@ -97,7 +97,7 @@ python3 main.py
 
 ---
 
-## 🔬 Heuristic Comparison
+##  Heuristic Comparison
 
 On an identical 13-move scrambled board:
 
@@ -111,7 +111,7 @@ Since Manhattan distance dominates misplaced tiles ($h_2(n) \ge h_1(n)$), it dra
 
 ---
 
-## 📜 References
+##  References
 
 * Johnson, Wm. Woolsey, and Story, William E. *"Notes on the '15' Puzzle"*, American Journal of Mathematics, Vol. 2, No. 4 (1879), pp. 397-404.
 * Course: *Fondements de l'Intelligence Artificielle (FIA)*, USTHB, Prof. Slimane LARABI.
